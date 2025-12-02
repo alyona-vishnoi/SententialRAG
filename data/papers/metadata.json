@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
+    "authors": [
+      "Zhongang Cai",
+      "Ruisi Wang",
+      "Chenyang Gu",
+      "Fanyi Pu",
+      "Junxiang Xu",
+      "Yubo Wang",
+      "Wanqi Yin",
+      "Zhitao Yang",
+      "Chen Wei",
+      "Qingping Sun",
+      "Tongxi Zhou",
+      "Jiaqi Li",
+      "Hui En Pang",
+      "Oscar Qian",
+      "Yukun Wei",
+      "Zhiqian Lin",
+      "Xuanke Shi",
+      "Kewang Deng",
+      "Xiaoyang Han",
+      "Zukai Chen",
+      "Xiangyu Fan",
+      "Hanming Deng",
+      "Lewei Lu",
+      "Liang Pan",
+      "Bo Li",
+      "Ziwei Liu",
+      "Quan Wang",
+      "Dahua Lin",
+      "Lei Yang"
+    ],
+    "published": "2025-11-17",
+    "summary": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence. In this work, we explore scaling up multimodal foundation models to cultivate spatial intelligence within the SenseNova-SI family, built upon established multimodal foundations including visual understanding models (i.e., Qwen3-VL and InternVL3) and unified understanding and generation models (i.e., Bagel). We take a principled approach to constructing high-performing and robust spatial intelligence by systematically curating SenseNova-SI-8M: eight million diverse data samples under a rigorous taxonomy of spatial capabilities. SenseNova-SI demonstrates unprecedented performance across a broad range of spatial intelligence benchmarks: 68.7% on VSI-Bench, 43.3% on MMSI, 85.6% on MindCube, 54.6% on ViewSpatial, and 50.1% on SITE, while maintaining strong general multimodal understanding (e.g., 84.9% on MMBench-En). More importantly, we analyze the impact of data scaling, discuss early signs of emergent generalization capabilities enabled by diverse data training, analyze the risk of overfitting and language shortcuts, present a preliminary study on spatial chain-of-thought reasoning, and validate the potential downstream application. SenseNova-SI is an ongoing project, and this report will be updated continuously. All newly trained multimodal foundation models are publicly released to facilitate further research in this direction.",
+    "arxiv_id": "2511.13719v1",
+    "filepath": "data/papers/2511.13719v1.pdf"
+  },
+  {
+    "title": "UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity",
+    "authors": [
+      "Junwei Yu",
+      "Trevor Darrell",
+      "XuDong Wang"
+    ],
+    "published": "2025-11-17",
+    "summary": "The Segment Anything Model (SAM) family has become a widely adopted vision foundation model, but its ability to control segmentation granularity remains limited. Users often need to refine results manually - by adding more prompts or selecting from pre-generated masks - to achieve the desired level of detail. This process can be ambiguous, as the same prompt may correspond to several plausible masks, and collecting dense annotations across all granularities is prohibitively expensive, making supervised solutions infeasible. To address this limitation, we introduce UnSAMv2, which enables segment anything at any granularity without human annotations. UnSAMv2 extends the divide-and-conquer strategy of UnSAM by discovering abundant mask-granularity pairs and introducing a novel granularity control embedding that enables precise, continuous control over segmentation scale. Remarkably, with only $6$K unlabeled images and $0.02\\%$ additional parameters, UnSAMv2 substantially enhances SAM-2, achieving segment anything at any granularity across interactive, whole-image, and video segmentation tasks. Evaluated on over $11$ benchmarks, UnSAMv2 improves $\\text{NoC}_{90}$ (5.69 $\\rightarrow$ 4.75), 1-IoU (58.0 $\\rightarrow$ 73.1), and $\\text{AR}_{1000}$ (49.6 $\\rightarrow$ 68.3), showing that small amounts of unlabeled data with a granularity-aware self-supervised learning method can unlock the potential of vision foundation models.",
+    "arxiv_id": "2511.13714v1",
+    "filepath": "data/papers/2511.13714v1.pdf"
+  },
+  {
+    "title": "From Black Box to Insight: Explainable AI for Extreme Event Preparedness",
+    "authors": [
+      "Kiana Vu",
+      "\u0130smet Sel\u00e7uk \u00d6zer",
+      "Phung Lai",
+      "Zheng Wu",
+      "Thilanka Munasinghe",
+      "Jennifer Wei"
+    ],
+    "published": "2025-11-17",
+    "summary": "As climate change accelerates the frequency and severity of extreme events such as wildfires, the need for accurate, explainable, and actionable forecasting becomes increasingly urgent. While artificial intelligence (AI) models have shown promise in predicting such events, their adoption in real-world decision-making remains limited due to their black-box nature, which limits trust, explainability, and operational readiness. This paper investigates the role of explainable AI (XAI) in bridging the gap between predictive accuracy and actionable insight for extreme event forecasting. Using wildfire prediction as a case study, we evaluate various AI models and employ SHapley Additive exPlanations (SHAP) to uncover key features, decision pathways, and potential biases in model behavior. Our analysis demonstrates how XAI not only clarifies model reasoning but also supports critical decision-making by domain experts and response teams. In addition, we provide supporting visualizations that enhance the interpretability of XAI outputs by contextualizing feature importance and temporal patterns in seasonality and geospatial characteristics. This approach enhances the usability of AI explanations for practitioners and policymakers. Our findings highlight the need for AI systems that are not only accurate but also interpretable, accessible, and trustworthy, essential for effective use in disaster preparedness, risk mitigation, and climate resilience planning.",
+    "arxiv_id": "2511.13712v1",
+    "filepath": "data/papers/2511.13712v1.pdf"
+  },
+  {
+    "title": "From Power to Precision: Learning Fine-grained Dexterity for Multi-fingered Robotic Hands",
+    "authors": [
+      "Jianglong Ye",
+      "Lai Wei",
+      "Guangqi Jiang",
+      "Changwei Jing",
+      "Xueyan Zou",
+      "Xiaolong Wang"
+    ],
+    "published": "2025-11-17",
+    "summary": "Human grasps can be roughly categorized into two types: power grasps and precision grasps. Precision grasping enables tool use and is believed to have influenced human evolution. Today's multi-fingered robotic hands are effective in power grasps, but for tasks requiring precision, parallel grippers are still more widely adopted. This contrast highlights a key limitation in current robotic hand design: the difficulty of achieving both stable power grasps and precise, fine-grained manipulation within a single, versatile system. In this work, we bridge this gap by jointly optimizing the control and hardware design of a multi-fingered dexterous hand, enabling both power and precision manipulation. Rather than redesigning the entire hand, we introduce a lightweight fingertip geometry modification, represent it as a contact plane, and jointly optimize its parameters along with the corresponding control. Our control strategy dynamically switches between power and precision manipulation and simplifies precision control into parallel thumb-index motions, which proves robust for sim-to-real transfer. On the design side, we leverage large-scale simulation to optimize the fingertip geometry using a differentiable neural-physics surrogate model. We validate our approach through extensive experiments in both sim-to-real and real-to-real settings. Our method achieves an 82.5% zero-shot success rate on unseen objects in sim-to-real precision grasping, and a 93.3% success rate in challenging real-world tasks involving bread pinching. These results demonstrate that our co-design framework can significantly enhance the fine-grained manipulation ability of multi-fingered hands without reducing their ability for power grasps. Our project page is at https://jianglongye.com/power-to-precision",
+    "arxiv_id": "2511.13710v1",
+    "filepath": "data/papers/2511.13710v1.pdf"
+  },
+  {
+    "title": "Rare Genomic Subtype Discovery from RNA-seq via Autoencoder Embeddings and Stability-Aware Clustering",
+    "authors": [
+      "Alaa Mezghiche"
+    ],
+    "published": "2025-11-17",
+    "summary": "Unsupervised learning on high-dimensional RNA-seq data can reveal molecular subtypes beyond standard labels. We combine an autoencoder-based representation with clustering and stability analysis to search for rare but reproducible genomic subtypes. On the UCI \"Gene Expression Cancer RNA-Seq\" dataset (801 samples, 20,531 genes; BRCA, COAD, KIRC, LUAD, PRAD), a pan-cancer analysis shows clusters aligning almost perfectly with tissue of origin (Cramer's V = 0.887), serving as a negative control. We therefore reframe the problem within KIRC (n = 146): we select the top 2,000 highly variable genes, standardize them, train a feed-forward autoencoder (128-dimensional latent space), and run k-means for k = 2-10. While global indices favor small k, scanning k with a pre-specified discovery rule (rare < 10 percent and stable with Jaccard >= 0.60 across 20 seeds after Hungarian alignment) yields a simple solution at k = 5 (silhouette = 0.129, DBI = 2.045) with a rare cluster C0 (6.85 percent of patients) that is highly stable (Jaccard = 0.787). Cluster-vs-rest differential expression (Welch's t-test, Benjamini-Hochberg FDR) identifies coherent markers. Overall, pan-cancer clustering is dominated by tissue of origin, whereas a stability-aware within-cancer approach reveals a rare, reproducible KIRC subtype.",
+    "arxiv_id": "2511.13705v1",
+    "filepath": "data/papers/2511.13705v1.pdf"
+  },
+  {
+    "title": "Generalist Foundation Models Are Not Clinical Enough for Hospital Operations",
+    "authors": [
+      "Lavender Y. Jiang",
+      "Angelica Chen",
+      "Xu Han",
+      "Xujin Chris Liu",
+      "Radhika Dua",
+      "Kevin Eaton",
+      "Frederick Wolff",
+      "Robert Steele",
+      "Jeff Zhang",
+      "Anton Alyakin",
+      "Qingkai Pan",
+      "Yanbing Chen",
+      "Karl L. Sangwon",
+      "Daniel A. Alber",
+      "Jaden Stryker",
+      "Jin Vivian Lee",
+      "Yindalon Aphinyanaphongs",
+      "Kyunghyun Cho",
+      "Eric Karl Oermann"
+    ],
+    "published": "2025-11-17",
+    "summary": "Hospitals and healthcare systems rely on operational decisions that determine patient flow, cost, and quality of care. Despite strong performance on medical knowledge and conversational benchmarks, foundation models trained on general text may lack the specialized knowledge required for these operational decisions. We introduce Lang1, a family of models (100M-7B parameters) pretrained on a specialized corpus blending 80B clinical tokens from NYU Langone Health's EHRs and 627B tokens from the internet. To rigorously evaluate Lang1 in real-world settings, we developed the REalistic Medical Evaluation (ReMedE), a benchmark derived from 668,331 EHR notes that evaluates five critical tasks: 30-day readmission prediction, 30-day mortality prediction, length of stay, comorbidity coding, and predicting insurance claims denial. In zero-shot settings, both general-purpose and specialized models underperform on four of five tasks (36.6%-71.7% AUROC), with mortality prediction being an exception. After finetuning, Lang1-1B outperforms finetuned generalist models up to 70x larger and zero-shot models up to 671x larger, improving AUROC by 3.64%-6.75% and 1.66%-23.66% respectively. We also observed cross-task scaling with joint finetuning on multiple tasks leading to improvement on other tasks. Lang1-1B effectively transfers to out-of-distribution settings, including other clinical tasks and an external health system. Our findings suggest that predictive capabilities for hospital operations require explicit supervised finetuning, and that this finetuning process is made more efficient by in-domain pretraining on EHR. Our findings support the emerging view that specialized LLMs can compete with generalist models in specialized tasks, and show that effective healthcare systems AI requires the combination of in-domain pretraining, supervised finetuning, and real-world evaluation beyond proxy benchmarks.",
+    "arxiv_id": "2511.13703v1",
+    "filepath": "data/papers/2511.13703v1.pdf"
+  },
+  {
+    "title": "ST-ProC: A Graph-Prototypical Framework for Robust Semi-Supervised Travel Mode Identification",
+    "authors": [
+      "Luyao Niu",
+      "Nuoxian Huang"
+    ],
+    "published": "2025-11-17",
+    "summary": "Travel mode identification (TMI) from GPS trajectories is critical for urban intelligence, but is hampered by the high cost of annotation, leading to severe label scarcity. Prevailing semi-supervised learning (SSL) methods are ill-suited for this task, as they suffer from catastrophic confirmation bias and ignore the intrinsic data manifold. We propose ST-ProC, a novel graph-prototypical multi-objective SSL framework to address these limitations. Our framework synergizes a graph-prototypical core with foundational SSL Support. The core exploits the data manifold via graph regularization, prototypical anchoring, and a novel, margin-aware pseudo-labeling strategy to actively reject noise. This core is supported and stabilized by foundational contrastive and teacher-student consistency losses, ensuring high-quality representations and robust optimization. ST-ProC outperforms all baselines by a significant margin, demonstrating its efficacy in real-world sparse-label settings, with a performance boost of 21.5% over state-of-the-art methods like FixMatch.",
+    "arxiv_id": "2511.13702v1",
+    "filepath": "data/papers/2511.13702v1.pdf"
+  },
+  {
+    "title": "Learning stochasticity: a nonparametric framework for intrinsic noise estimation",
+    "authors": [
+      "Gianluigi Pillonetto",
+      "Alberto Giaretta",
+      "Mauro Bisiacco"
+    ],
+    "published": "2025-11-17",
+    "summary": "Understanding the principles that govern dynamical systems is a central challenge across many scientific domains, including biology and ecology. Incomplete knowledge of nonlinear interactions and stochastic effects often renders bottom-up modeling approaches ineffective, motivating the development of methods that can discover governing equations directly from data. In such contexts, parametric models often struggle without strong prior knowledge, especially when estimating intrinsic noise. Nonetheless, incorporating stochastic effects is often essential for understanding the dynamic behavior of complex systems such as gene regulatory networks and signaling pathways. To address these challenges, we introduce Trine (Three-phase Regression for INtrinsic noisE), a nonparametric, kernel-based framework that infers state-dependent intrinsic noise from time-series data. Trine features a three-stage algorithm that com- bines analytically solvable subproblems with a structured kernel architecture that captures both abrupt noise-driven fluctuations and smooth, state-dependent changes in variance. We validate Trine on biological and ecological systems, demonstrating its ability to uncover hidden dynamics without relying on predefined parametric assumptions. Across several benchmark problems, Trine achieves performance comparable to that of an oracle. Biologically, this oracle can be viewed as an idealized observer capable of directly tracking the random fluctuations in molecular concentrations or reaction events within a cell. The Trine framework thus opens new avenues for understanding how intrinsic noise affects the behavior of complex systems.",
+    "arxiv_id": "2511.13701v1",
+    "filepath": "data/papers/2511.13701v1.pdf"
+  },
+  {
+    "title": "Efficient Calibration for Decision Making",
+    "authors": [
+      "Parikshit Gopalan",
+      "Konstantinos Stavropoulos",
+      "Kunal Talwar",
+      "Pranay Tankala"
+    ],
+    "published": "2025-11-17",
+    "summary": "A decision-theoretic characterization of perfect calibration is that an agent seeking to minimize a proper loss in expectation cannot improve their outcome by post-processing a perfectly calibrated predictor. Hu and Wu (FOCS'24) use this to define an approximate calibration measure called calibration decision loss ($\\mathsf{CDL}$), which measures the maximal improvement achievable by any post-processing over any proper loss. Unfortunately, $\\mathsf{CDL}$ turns out to be intractable to even weakly approximate in the offline setting, given black-box access to the predictions and labels.\n  We suggest circumventing this by restricting attention to structured families of post-processing functions $K$. We define the calibration decision loss relative to $K$, denoted $\\mathsf{CDL}_K$ where we consider all proper losses but restrict post-processings to a structured family $K$. We develop a comprehensive theory of when $\\mathsf{CDL}_K$ is information-theoretically and computationally tractable, and use it to prove both upper and lower bounds for natural classes $K$. In addition to introducing new definitions and algorithmic techniques to the theory of calibration for decision making, our results give rigorous guarantees for some widely used recalibration procedures in machine learning.",
+    "arxiv_id": "2511.13699v1",
+    "filepath": "data/papers/2511.13699v1.pdf"
+  },
+  {
+    "title": "Crossing Borders: A Multimodal Challenge for Indian Poetry Translation and Image Generation",
+    "authors": [
+      "Sofia Jamil",
+      "Kotla Sai Charan",
+      "Sriparna Saha",
+      "Koustava Goswami",
+      "Joseph K J"
+    ],
+    "published": "2025-11-17",
+    "summary": "Indian poetry, known for its linguistic complexity and deep cultural resonance, has a rich and varied heritage spanning thousands of years. However, its layered meanings, cultural allusions, and sophisticated grammatical constructions often pose challenges for comprehension, especially for non-native speakers or readers unfamiliar with its context and language. Despite its cultural significance, existing works on poetry have largely overlooked Indian language poems. In this paper, we propose the Translation and Image Generation (TAI) framework, leveraging Large Language Models (LLMs) and Latent Diffusion Models through appropriate prompt tuning. Our framework supports the United Nations Sustainable Development Goals of Quality Education (SDG 4) and Reduced Inequalities (SDG 10) by enhancing the accessibility of culturally rich Indian-language poetry to a global audience. It includes (1) a translation module that uses an Odds Ratio Preference Alignment Algorithm to accurately translate morphologically rich poetry into English, and (2) an image generation module that employs a semantic graph to capture tokens, dependencies, and semantic relationships between metaphors and their meanings, to create visually meaningful representations of Indian poems. Our comprehensive experimental evaluation, including both human and quantitative assessments, demonstrates the superiority of TAI Diffusion in poem image generation tasks, outperforming strong baselines. To further address the scarcity of resources for Indian-language poetry, we introduce the Morphologically Rich Indian Language Poems MorphoVerse Dataset, comprising 1,570 poems across 21 low-resource Indian languages. By addressing the gap in poetry translation and visual comprehension, this work aims to broaden accessibility and enrich the reader's experience.",
+    "arxiv_id": "2511.13689v1",
+    "filepath": "data/papers/2511.13689v1.pdf"
+  },
+  {
+    "title": "Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers",
+    "authors": [
+      "Disha Varshney",
+      "Samarth Garg",
+      "Sarthak Tyagi",
+      "Deeksha Varshney",
+      "Nayan Deep",
+      "Asif Ekbal"
+    ],
+    "published": "2025-11-17",
+    "summary": "In this study, we tackle the challenging task of predicting secondary structures from protein primary sequences, a pivotal initial stride towards predicting tertiary structures, while yielding crucial insights into protein activity, relationships, and functions. Existing methods often utilize extensive sets of unlabeled amino acid sequences. However, these approaches neither explicitly capture nor harness the accessible protein 3D structural data, which is recognized as a decisive factor in dictating protein functions. To address this, we utilize protein residue graphs and introduce various forms of sequential or structural connections to capture enhanced spatial information. We adeptly combine Graph Neural Networks (GNNs) and Language Models (LMs), specifically utilizing a pre-trained transformer-based protein language model to encode amino acid sequences and employing message-passing mechanisms like GCN and R-GCN to capture geometric characteristics of protein structures. Employing convolution within a specific node's nearby region, including relations, we stack multiple convolutional layers to efficiently learn combined insights from the protein's spatial graph, revealing intricate interconnections and dependencies in its structural arrangement. To assess our model's performance, we employed the training dataset provided by NetSurfP-2.0, which outlines secondary structure in 3-and 8-states. Extensive experiments show that our proposed model, SSRGNet surpasses the baseline on f1-scores.",
+    "arxiv_id": "2511.13685v1",
+    "filepath": "data/papers/2511.13685v1.pdf"
+  },
+  {
+    "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
+    "authors": [
+      "Jiangnan Ye",
+      "Jiedong Zhuang",
+      "Lianrui Mu",
+      "Wenjie Zheng",
+      "Jiaqi Hu",
+      "Xingze Zou",
+      "Jing Wang",
+      "Haoji Hu"
+    ],
+    "published": "2025-11-17",
+    "summary": "We introduce GS-Light, an efficient, textual position-aware pipeline for text-guided relighting of 3D scenes represented via Gaussian Splatting (3DGS). GS-Light implements a training-free extension of a single-input diffusion model to handle multi-view inputs. Given a user prompt that may specify lighting direction, color, intensity, or reference objects, we employ a large vision-language model (LVLM) to parse the prompt into lighting priors. Using off-the-shelf estimators for geometry and semantics (depth, surface normals, and semantic segmentation), we fuse these lighting priors with view-geometry constraints to compute illumination maps and generate initial latent codes for each view. These meticulously derived init latents guide the diffusion model to generate relighting outputs that more accurately reflect user expectations, especially in terms of lighting direction. By feeding multi-view rendered images, along with the init latents, into our multi-view relighting model, we produce high-fidelity, artistically relit images. Finally, we fine-tune the 3DGS scene with the relit appearance to obtain a fully relit 3D scene. We evaluate GS-Light on both indoor and outdoor scenes, comparing it to state-of-the-art baselines including per-view relighting, video relighting, and scene editing methods. Using quantitative metrics (multi-view consistency, imaging quality, aesthetic score, semantic similarity, etc.) and qualitative assessment (user studies), GS-Light demonstrates consistent improvements over baselines. Code and assets will be made available upon publication.",
+    "arxiv_id": "2511.13684v1",
+    "filepath": "data/papers/2511.13684v1.pdf"
+  },
+  {
+    "title": "Cross-Learning from Scarce Data via Multi-Task Constrained Optimization",
+    "authors": [
+      "Leopoldo Agorio",
+      "Juan Cervi\u00f1o",
+      "Miguel Calvo-Fullana",
+      "Alejandro Ribeiro",
+      "Juan Andr\u00e9s Bazerque"
+    ],
+    "published": "2025-11-17",
+    "summary": "A learning task, understood as the problem of fitting a parametric model from supervised data, fundamentally requires the dataset to be large enough to be representative of the underlying distribution of the source. When data is limited, the learned models fail generalize to cases not seen during training. This paper introduces a multi-task \\emph{cross-learning} framework to overcome data scarcity by jointly estimating \\emph{deterministic} parameters across multiple, related tasks. We formulate this joint estimation as a constrained optimization problem, where the constraints dictate the resulting similarity between the parameters of the different models, allowing the estimated parameters to differ across tasks while still combining information from multiple data sources. This framework enables knowledge transfer from tasks with abundant data to those with scarce data, leading to more accurate and reliable parameter estimates, providing a solution for scenarios where parameter inference from limited data is critical. We provide theoretical guarantees in a controlled framework with Gaussian data, and show the efficiency of our cross-learning method in applications with real data including image classification and propagation of infectious diseases.",
+    "arxiv_id": "2511.13680v1",
+    "filepath": "data/papers/2511.13680v1.pdf"
+  },
+  {
+    "title": "QUILL: An Algorithm-Architecture Co-Design for Cache-Local Deformable Attention",
+    "authors": [
+      "Hyunwoo Oh",
+      "Hanning Chen",
+      "Sanggeon Yun",
+      "Yang Ni",
+      "Wenjun Huang",
+      "Tamoghno Das",
+      "Suyeon Jang",
+      "Mohsen Imani"
+    ],
+    "published": "2025-11-17",
+    "summary": "Deformable transformers deliver state-of-the-art detection but map poorly to hardware due to irregular memory access and low arithmetic intensity. We introduce QUILL, a schedule-aware accelerator that turns deformable attention into cache-friendly, single-pass work. At its core, Distance-based Out-of-Order Querying (DOOQ) orders queries by spatial proximity; the look-ahead drives a region prefetch into an alternate buffer--forming a schedule-aware prefetch loop that overlaps memory and compute. A fused MSDeformAttn engine executes interpolation, Softmax, aggregation, and the final projection (W''m) in one pass without spilling intermediates, while small tensors are kept on-chip and surrounding dense layers run on integrated GEMMs. Implemented as RTL and evaluated end-to-end, QUILL achieves up to 7.29x higher throughput and 47.3x better energy efficiency than an RTX 4090, and exceeds prior accelerators by 3.26-9.82x in throughput and 2.01-6.07x in energy efficiency. With mixed-precision quantization, accuracy tracks FP32 within <=0.9 AP across Deformable and Sparse DETR variants. By converting sparsity into locality--and locality into utilization--QUILL delivers consistent, end-to-end speedups.",
+    "arxiv_id": "2511.13679v1",
+    "filepath": "data/papers/2511.13679v1.pdf"
+  },
+  {
+    "title": "T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization",
+    "authors": [
+      "Hyunwoo Oh",
+      "KyungIn Nam",
+      "Rajat Bhattacharjya",
+      "Hanning Chen",
+      "Tamoghno Das",
+      "Sanggeon Yun",
+      "Suyeon Jang",
+      "Andrew Ding",
+      "Nikil Dutt",
+      "Mohsen Imani"
+    ],
+    "published": "2025-11-17",
+    "summary": "Recent advances in LLMs have outpaced the computational and memory capacities of edge platforms that primarily employ CPUs, thereby challenging efficient and scalable deployment. While ternary quantization enables significant resource savings, existing CPU solutions rely heavily on memory-based lookup tables (LUTs) which limit scalability, and FPGA or GPU accelerators remain impractical for edge use. This paper presents T-SAR, the first framework to achieve scalable ternary LLM inference on CPUs by repurposing the SIMD register file for dynamic, in-register LUT generation with minimal hardware modifications. T-SAR eliminates memory bottlenecks and maximizes data-level parallelism, delivering 5.6-24.5x and 1.1-86.2x improvements in GEMM latency and GEMV throughput, respectively, with only 3.2% power and 1.4% area overheads in SIMD units. T-SAR achieves up to 2.5-4.9x the energy efficiency of an NVIDIA Jetson AGX Orin, establishing a practical approach for efficient LLM inference on edge platforms.",
+    "arxiv_id": "2511.13676v1",
+    "filepath": "data/papers/2511.13676v1.pdf"
+  },
+  {
+    "title": "Scientific Data Compression and Super-Resolution Sampling",
+    "authors": [
+      "Minh Vu",
+      "Andrey Lokhov"
+    ],
+    "published": "2025-11-17",
+    "summary": "Modern scientific simulations, observations, and large-scale experiments generate data at volumes that often exceed the limits of storage, processing, and analysis. This challenge drives the development of data reduction methods that efficiently manage massive datasets while preserving essential physical features and quantities of interest. In many scientific workflows, it is also crucial to enable data recovery from compressed representations - a task known as super-resolution - with guarantees on the preservation of key physical characteristics. A notable example is checkpointing and restarting, which is essential for long-running simulations to recover from failures, resume after interruptions, or examine intermediate results. In this work, we introduce a novel framework for scientific data compression and super-resolution, grounded in recent advances in learning exponential families. Our method preserves and quantifies uncertainty in physical quantities of interest and supports flexible trade-offs between compression ratio and reconstruction fidelity.",
+    "arxiv_id": "2511.13675v1",
+    "filepath": "data/papers/2511.13675v1.pdf"
+  },
+  {
+    "title": "Person-AI Bidirectional Fit - A Proof-Of-Concept Case Study Of Augmented Human-Ai Symbiosis In Management Decision-Making Process",
+    "authors": [
+      "Agnieszka Bie\u0144kowska",
+      "Jacek Ma\u0142ecki",
+      "Alexander Mathiesen-Ohman",
+      "Katarzyna Tworek"
+    ],
+    "published": "2025-11-17",
+    "summary": "This article develops the concept of Person-AI bidirectional fit, defined as the continuously evolving, context-sensitive alignment-primarily cognitive, but also emotional and behavioral-between a human decision-maker and an artificial intelligence system. Grounded in contingency theory and quality theory, the study examines the role of P-AI fit in managerial decision-making through a proof-of-concept case study involving a real hiring process for a Senior AI Lead. Three decision pathways are compared: (1) independent evaluations by a CEO, CTO, and CSO; (2) an evaluation produced by an augmented human-AI symbiotic intelligence system (H3LIX-LAIZA); and (3) an assessment generated by a general-purpose large language model. The results reveal substantial role-based divergence in human judgments, high alignment between H3LIX-LAIZA and the CEOs implicit decision model-including ethical disqualification of a high-risk candidate and a critical false-positive recommendation from the LLMr. The findings demonstrate that higher P-AI fit, exemplified by the CEO H3LIX-LAIZA relationship, functions as a mechanism linking augmented symbiotic intelligence to accurate, trustworthy, and context-sensitive decisions. The study provides an initial verification of the P-AI fit construct and a proof-of-concept for H3LIX-LAIZA as an augmented human-AI symbiotic intelligence system.",
+    "arxiv_id": "2511.13670v1",
+    "filepath": "data/papers/2511.13670v1.pdf"
+  },
+  {
+    "title": "Cost-Driven Synthesis of Sound Abstract Interpreters",
+    "authors": [
+      "Qiuhan Gu",
+      "Avaljot Singh",
+      "Gagandeep Singh"
+    ],
+    "published": "2025-11-17",
+    "summary": "Constructing abstract interpreters that provide global soundness guarantees remains a major obstacle in abstract interpretation. We investigate whether modern LLMs can reduce this burden by leveraging them to synthesize sound, non-trivial abstract interpreters across multiple abstract domains in the setting of neural network verification. We formulate synthesis as a constrained optimization problem and introduce a novel mathematically grounded cost function for measuring unsoundness under strict syntactic and semantic constraints. Based on this formulation, we develop a unified framework that unifies LLM-based generation with syntactic and semantic validation and a quantitative cost-guided feedback mechanism. Empirical results demonstrate that our framework not only matches the quality of handcrafted transformers, but more importantly, discovers sound, high-precision transformers for complex nonlinear operators that are absent from existing literature.",
+    "arxiv_id": "2511.13663v1",
+    "filepath": "data/papers/2511.13663v1.pdf"
+  },
+  {
+    "title": "Why is \"Chicago\" Predictive of Deceptive Reviews? Using LLMs to Discover Language Phenomena from Lexical Cues",
+    "authors": [
+      "Jiaming Qu",
+      "Mengtian Guo",
+      "Yue Wang"
+    ],
+    "published": "2025-11-17",
+    "summary": "Deceptive reviews mislead consumers, harm businesses, and undermine trust in online marketplaces. Machine learning classifiers can learn from large amounts of training examples to effectively distinguish deceptive reviews from genuine ones. However, the distinguishing features learned by these classifiers are often subtle, fragmented, and difficult for humans to interpret. In this work, we explore using large language models (LLMs) to translate machine-learned lexical cues into human-understandable language phenomena that can differentiate deceptive reviews from genuine ones. We show that language phenomena obtained in this manner are empirically grounded in data, generalizable across similar domains, and more predictive than phenomena either in LLMs' prior knowledge or obtained through in-context learning. These language phenomena have the potential to aid people in critically assessing the credibility of online reviews in environments where deception detection classifiers are unavailable.",
+    "arxiv_id": "2511.13658v1",
+    "filepath": "data/papers/2511.13658v1.pdf"
+  },
+  {
+    "title": "OlmoEarth: Stable Latent Image Modeling for Multimodal Earth Observation",
+    "authors": [
+      "Henry Herzog",
+      "Favyen Bastani",
+      "Yawen Zhang",
+      "Gabriel Tseng",
+      "Joseph Redmon",
+      "Hadrien Sablon",
+      "Ryan Park",
+      "Jacob Morrison",
+      "Alexandra Buraczynski",
+      "Karen Farley",
+      "Joshua Hansen",
+      "Andrew Howe",
+      "Patrick Alan Johnson",
+      "Mark Otterlee",
+      "Ted Schmitt",
+      "Hunter Pitelka",
+      "Stephen Daspit",
+      "Rachel Ratner",
+      "Christopher Wilhelm",
+      "Sebastian Wood",
+      "Mike Jacobi",
+      "Hannah Kerner",
+      "Evan Shelhamer",
+      "Ali Farhadi",
+      "Ranjay Krishna",
+      "Patrick Beukema"
+    ],
+    "published": "2025-11-17",
+    "summary": "Earth observation data presents a unique challenge: it is spatial like images, sequential like video or text, and highly multimodal. We present OlmoEarth: a multimodal, spatio-temporal foundation model that employs a novel self-supervised learning formulation, masking strategy, and loss all designed for the Earth observation domain. OlmoEarth achieves state-of-the-art performance compared to 12 other foundation models across a variety of research benchmarks and real-world tasks from external partners. When evaluating embeddings OlmoEarth achieves the best performance on 15 out of 24 tasks, and with full fine-tuning it is the best on 19 of 29 tasks. We deploy OlmoEarth as the backbone of an end-to-end platform for data collection, labeling, training, and inference of Earth observation models. The OlmoEarth Platform puts frontier foundation models and powerful data management tools into the hands of non-profits and NGOs working to solve the world's biggest problems. OlmoEarth source code, training data, and pre-trained weights are available at $\\href{https://github.com/allenai/olmoearth_pretrain}{\\text{https://github.com/allenai/olmoearth_pretrain}}$.",
+    "arxiv_id": "2511.13655v1",
+    "filepath": "data/papers/2511.13655v1.pdf"
+  }
+]

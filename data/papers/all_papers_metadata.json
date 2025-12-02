@@ -1,0 +1,427 @@
+[
+  {
+    "title": "Attention Is All You Need",
+    "arxiv_id": "1706.03762",
+    "category": "famous",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Lukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "published": "2017-06-12",
+    "filepath": "data/papers/1706.03762.pdf",
+    "num_pages": 15
+  },
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "arxiv_id": "1810.04805",
+    "category": "famous",
+    "authors": [
+      "Jacob Devlin",
+      "Ming-Wei Chang",
+      "Kenton Lee",
+      "Kristina Toutanova"
+    ],
+    "published": "2018-10-11",
+    "filepath": "data/papers/1810.04805.pdf",
+    "num_pages": 16
+  },
+  {
+    "title": "Language Models are Few-Shot Learners",
+    "arxiv_id": "2005.14165",
+    "category": "famous",
+    "authors": [
+      "Tom B. Brown",
+      "Benjamin Mann",
+      "Nick Ryder",
+      "Melanie Subbiah",
+      "Jared Kaplan",
+      "Prafulla Dhariwal",
+      "Arvind Neelakantan",
+      "Pranav Shyam",
+      "Girish Sastry",
+      "Amanda Askell",
+      "Sandhini Agarwal",
+      "Ariel Herbert-Voss",
+      "Gretchen Krueger",
+      "Tom Henighan",
+      "Rewon Child",
+      "Aditya Ramesh",
+      "Daniel M. Ziegler",
+      "Jeffrey Wu",
+      "Clemens Winter",
+      "Christopher Hesse",
+      "Mark Chen",
+      "Eric Sigler",
+      "Mateusz Litwin",
+      "Scott Gray",
+      "Benjamin Chess",
+      "Jack Clark",
+      "Christopher Berner",
+      "Sam McCandlish",
+      "Alec Radford",
+      "Ilya Sutskever",
+      "Dario Amodei"
+    ],
+    "published": "2020-05-28",
+    "filepath": "data/papers/2005.14165.pdf",
+    "num_pages": 75
+  },
+  {
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "arxiv_id": "2010.11929",
+    "category": "famous",
+    "authors": [
+      "Alexey Dosovitskiy",
+      "Lucas Beyer",
+      "Alexander Kolesnikov",
+      "Dirk Weissenborn",
+      "Xiaohua Zhai",
+      "Thomas Unterthiner",
+      "Mostafa Dehghani",
+      "Matthias Minderer",
+      "Georg Heigold",
+      "Sylvain Gelly",
+      "Jakob Uszkoreit",
+      "Neil Houlsby"
+    ],
+    "published": "2020-10-22",
+    "filepath": "data/papers/2010.11929.pdf",
+    "num_pages": 22
+  },
+  {
+    "title": "Deep Residual Learning for Image Recognition",
+    "arxiv_id": "1512.03385",
+    "category": "famous",
+    "authors": [
+      "Kaiming He",
+      "Xiangyu Zhang",
+      "Shaoqing Ren",
+      "Jian Sun"
+    ],
+    "published": "2015-12-10",
+    "filepath": "data/papers/1512.03385.pdf",
+    "num_pages": 12
+  },
+  {
+    "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "arxiv_id": "1409.0473",
+    "category": "famous",
+    "authors": [
+      "Dzmitry Bahdanau",
+      "Kyunghyun Cho",
+      "Yoshua Bengio"
+    ],
+    "published": "2014-09-01",
+    "filepath": "data/papers/1409.0473.pdf",
+    "num_pages": 15
+  },
+  {
+    "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "arxiv_id": "1409.1556",
+    "category": "famous",
+    "authors": [
+      "Karen Simonyan",
+      "Andrew Zisserman"
+    ],
+    "published": "2014-09-04",
+    "filepath": "data/papers/1409.1556.pdf",
+    "num_pages": 14
+  },
+  {
+    "title": "Harnessing Data from Clustered LQR Systems: Personalized and Collaborative Policy Optimization",
+    "arxiv_id": "2511.17489v1",
+    "category": "recent",
+    "authors": [
+      "Vinay Kanakeri",
+      "Shivam Bajaj",
+      "Ashwin Verma",
+      "Vijay Gupta",
+      "Aritra Mitra"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17489v1.pdf",
+    "num_pages": 30
+  },
+  {
+    "title": "Enhancing Quranic Learning: A Multimodal Deep Learning Approach for Arabic Phoneme Recognition",
+    "arxiv_id": "2511.17477v1",
+    "category": "recent",
+    "authors": [
+      "Ayhan Kucukmanisa",
+      "Derya Gelmez",
+      "Sukru Selim Calik",
+      "Zeynep Hilal Kilimci"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17477v1.pdf",
+    "num_pages": 11
+  },
+  {
+    "title": "Addressing A Posteriori Performance Degradation in Neural Network Subgrid Stress Models",
+    "arxiv_id": "2511.17475v1",
+    "category": "recent",
+    "authors": [
+      "Andy Wu",
+      "Sanjiva K. Lele"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17475v1.pdf",
+    "num_pages": 10
+  },
+  {
+    "title": "Masked-and-Reordered Self-Supervision for Reinforcement Learning from Verifiable Rewards",
+    "arxiv_id": "2511.17473v1",
+    "category": "recent",
+    "authors": [
+      "Zhen Wang",
+      "Zhifeng Gao",
+      "Guolin Ke"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17473v1.pdf",
+    "num_pages": 16
+  },
+  {
+    "title": "PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM",
+    "arxiv_id": "2511.17467v1",
+    "category": "recent",
+    "authors": [
+      "Siqi Liang",
+      "Yudi Zhang",
+      "Yue Guo"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17467v1.pdf",
+    "num_pages": 5
+  },
+  {
+    "title": "SRA-CP: Spontaneous Risk-Aware Selective Cooperative Perception",
+    "arxiv_id": "2511.17461v1",
+    "category": "recent",
+    "authors": [
+      "Jiaxi Liu",
+      "Chengyuan Ma",
+      "Hang Zhou",
+      "Weizhe Tang",
+      "Shixiao Liang",
+      "Haoyang Ding",
+      "Xiaopeng Li",
+      "Bin Ran"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17461v1.pdf",
+    "num_pages": 23
+  },
+  {
+    "title": "Planning with Sketch-Guided Verification for Physics-Aware Video Generation",
+    "arxiv_id": "2511.17450v1",
+    "category": "recent",
+    "authors": [
+      "Yidong Huang",
+      "Zun Wang",
+      "Han Lin",
+      "Dong-Ki Kim",
+      "Shayegan Omidshafiei",
+      "Jaehong Yoon",
+      "Yue Zhang",
+      "Mohit Bansal"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17450v1.pdf",
+    "num_pages": 20
+  },
+  {
+    "title": "Unmasking Airborne Threats: Guided-Transformers for Portable Aerosol Mass Spectrometry",
+    "arxiv_id": "2511.17446v1",
+    "category": "recent",
+    "authors": [
+      "Kyle M. Regan",
+      "Michael McLoughlin",
+      "Wayne A. Bryden",
+      "Gonzalo R. Arce"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17446v1.pdf",
+    "num_pages": 13
+  },
+  {
+    "title": "GRAPHIC--Guidelines for Reviewing Algorithmic Practices in Human-centred Design and Interaction for Creativity",
+    "arxiv_id": "2511.17443v1",
+    "category": "recent",
+    "authors": [
+      "Joana Rovira Martins",
+      "Pedro Martins",
+      "Ana Boavida"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17443v1.pdf",
+    "num_pages": 20
+  },
+  {
+    "title": "REMSA: An LLM Agent for Foundation Model Selection in Remote Sensing",
+    "arxiv_id": "2511.17442v1",
+    "category": "recent",
+    "authors": [
+      "Binger Chen",
+      "Tacettin Emre B\u00f6k",
+      "Behnood Rasti",
+      "Volker Markl",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17442v1.pdf",
+    "num_pages": 26
+  },
+  {
+    "title": "InTAct: Interval-based Task Activation Consolidation for Continual Learning",
+    "arxiv_id": "2511.17439v1",
+    "category": "recent",
+    "authors": [
+      "Patryk Krukowski",
+      "Jan Miksa",
+      "Piotr Helm",
+      "Jacek Tabor",
+      "Pawe\u0142 Wawrzy\u0144ski",
+      "Przemys\u0142aw Spurek"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17439v1.pdf",
+    "num_pages": 23
+  },
+  {
+    "title": "A Framework for Adaptive Stabilisation of Nonlinear Stochastic Systems",
+    "arxiv_id": "2511.17436v1",
+    "category": "recent",
+    "authors": [
+      "Seth Siriya",
+      "Jingge Zhu",
+      "Dragan Ne\u0161i\u0107",
+      "Ye Pu"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17436v1.pdf",
+    "num_pages": 22
+  },
+  {
+    "title": "Multi-Agent Pointer Transformer: Seq-to-Seq Reinforcement Learning for Multi-Vehicle Dynamic Pickup-Delivery Problems",
+    "arxiv_id": "2511.17435v1",
+    "category": "recent",
+    "authors": [
+      "Zengyu Zou",
+      "Jingyuan Wang",
+      "Yixuan Huang",
+      "Junjie Wu"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17435v1.pdf",
+    "num_pages": 15
+  },
+  {
+    "title": "SMILE: A Composite Lexical-Semantic Metric for Question-Answering Evaluation",
+    "arxiv_id": "2511.17432v1",
+    "category": "recent",
+    "authors": [
+      "Shrikant Kendre",
+      "Austin Xu",
+      "Honglu Zhou",
+      "Michael Ryoo",
+      "Shafiq Joty",
+      "Juan Carlos Niebles"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17432v1.pdf",
+    "num_pages": 23
+  },
+  {
+    "title": "Towards fully differentiable neural ocean model with Veros",
+    "arxiv_id": "2511.17427v1",
+    "category": "recent",
+    "authors": [
+      "Etienne Meunier",
+      "Said Ouala",
+      "Hugo Frezat",
+      "Julien Le Sommer",
+      "Ronan Fablet"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17427v1.pdf",
+    "num_pages": 8
+  },
+  {
+    "title": "Self-Supervised Learning by Curvature Alignment",
+    "arxiv_id": "2511.17426v1",
+    "category": "recent",
+    "authors": [
+      "Benyamin Ghojogh",
+      "M. Hadi Sepanj",
+      "Paul Fieguth"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17426v1.pdf",
+    "num_pages": 8
+  },
+  {
+    "title": "Preventing Shortcut Learning in Medical Image Analysis through Intermediate Layer Knowledge Distillation from Specialist Teachers",
+    "arxiv_id": "2511.17421v1",
+    "category": "recent",
+    "authors": [
+      "Christopher Boland",
+      "Sotirios Tsaftaris",
+      "Sonia Dahdouh"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17421v1.pdf",
+    "num_pages": 30
+  },
+  {
+    "title": "DS-Span: Single-Phase Discriminative Subgraph Mining for Efficient Graph Embeddings",
+    "arxiv_id": "2511.17419v1",
+    "category": "recent",
+    "authors": [
+      "Yeamin Kaiser",
+      "Muhammed Tasnim Bin Anwar",
+      "Bholanath Das",
+      "Chowdhury Farhan Ahmed",
+      "Md. Tanvir Alam"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17419v1.pdf",
+    "num_pages": 11
+  },
+  {
+    "title": "CREST: Improving Interpretability and Effectiveness of Troubleshooting at Ericsson through Criterion-Specific Trouble Report Retrieval",
+    "arxiv_id": "2511.17417v1",
+    "category": "recent",
+    "authors": [
+      "Soroush Javdan",
+      "Pragash Krishnamoorthy",
+      "Olga Baysal"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17417v1.pdf",
+    "num_pages": 43
+  },
+  {
+    "title": "SPEAR-1: Scaling Beyond Robot Demonstrations via 3D Understanding",
+    "arxiv_id": "2511.17411v1",
+    "category": "recent",
+    "authors": [
+      "Nikolay Nikolov",
+      "Giuliano Albanese",
+      "Sombit Dey",
+      "Aleksandar Yanev",
+      "Luc Van Gool",
+      "Jan-Nico Zaech",
+      "Danda Pani Paudel"
+    ],
+    "published": "2025-11-21",
+    "filepath": "data/papers/2511.17411v1.pdf",
+    "num_pages": 16
+  }
+]
